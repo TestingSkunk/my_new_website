@@ -20,8 +20,14 @@ Here is how you can include images in your website pages (this one is saved in `
 knitr::include_graphics("resources/images/example_image.png")
 ```
 
- 
- 
+```{r, eval = FALSE}
+library(emoji)
+emoji::emoji("smile")
+```
+
+```{r}
+library(tseries)
+```
 We will go through the following:
 
 1. How to set up your repository to enable the GitHub actions of the template. (Setup tab)
