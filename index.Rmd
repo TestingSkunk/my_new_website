@@ -19,6 +19,7 @@ knitr::include_graphics("resources/images/example_image.png")
 ```
 
 ```{r}
+library(emoji)
 emoji::emoji("smile")
 ```
 
