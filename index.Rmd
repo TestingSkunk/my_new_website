@@ -24,7 +24,7 @@ emoji::emoji("smile")
 ```
 
 ```{r}
-library(OCSdata)
+library(S4Vectors)
 ```
 We will go through the following:
 
